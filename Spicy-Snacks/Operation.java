@@ -10,17 +10,17 @@ public class Operation{
         String operator = input.nextLine();
         System.out.print("Enter your second number: ");
         int secondNumber = input.nextInt();
-        result = 0
+        result = 0;
         if(sign == "+")
-            result = first_number + second_number
+            result = first_number + second_number;
         else if(sign == "-")
-            result = first_number - second_number
+            result = first_number - second_number;
         else if(sign == "*")
-            result = first_number * second_number
-        else if(sign == "/")
-            result = first_number / second_number
-    
-        print(result)
+            result = first_number * second_number;
+        else if(sign == "/"){
+            result = first_number / second_number;
+        }
+        System.out.print(result)
         
       
 
